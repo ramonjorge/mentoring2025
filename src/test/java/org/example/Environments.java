@@ -13,7 +13,7 @@ public class Environments extends Base{
 
     public Environments goToPro(){
 
-        //Paso 1.Ir a la pagina de Berska
+        //Paso 1.Ir a la pagina de Casa del libro
         driver.manage().window().maximize();
         driver.get("https://www.CasaDelLibro.com/");
         System.out.println("Cargando url: https://www.CasaDelLibro.com/");
